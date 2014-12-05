@@ -11,7 +11,7 @@ import logging; logging.basicConfig(level=logging.INFO)
  
 import os 
 
-from transwarp import db 
+from transwarp import db
 from transwarp.web import WSGIApplication, Jinja2TemplateEngine 
  
 from config import configs 
